@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Balance Management</title>
+    
+</head>
+<body>
+
+    <h1 class="tittle">Your Balance Management</h1>
+    <div class="balance-container">
+        <!-- deposite container -->
+        <div class="deposite-balance">
+            <h1>Deposite Balance</h1>
+            <p id="deposite_balance"> 00 </p>
+        </div>
+
+        <!-- withdraw container -->
+        <div class="withdraw-balance">
+            <h1>Withdraw Balance</h1>
+            <p id="withdraw_balance">00</p>
+
+        </div>
+
+        <!-- total container -->
+         <div class="total-balance">
+            <h1>Total Blance</h1>
+            <p id="deposite_total">00</p>
+         </div>
+
+    </div>
+
+    <div class="amount-container">
+        <div class="deposite-amount">
+           <input type="number" name="" id="deposite_amount" placeholder="Deposite Amount" >
+           <button id="deposite_button" type="submit">Deposite</button>
+        </div>
+
+        <div class="withdraw-amount">
+            <input type="number" name="" id="withdraw_amount" placeholder="Withdraw Amount" >
+            <button id="withdraw_button" type="submit">Withdraw</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./balance.js"></script>
+</body>
+</html>
